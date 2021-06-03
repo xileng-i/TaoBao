@@ -1,0 +1,127 @@
+/* 样式重置 */
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+ul {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    border: none;
+    /* 垂直对齐方式 */
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+i {
+    font-style: normal;
+}
+
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0;
+}
+
+body {
+    /* 设置字体  font是复合属性,写在一起要尊重规则  */
+    font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    /* font-family: '宋体';
+    font-family: '\5b8b\4f53';
+    font-family: SimSun;
+
+    font-family: "微软雅黑";
+    font-family: Miscrosoft YaHei; */
+    color: #3c3c3c;
+    /* background-color: #f4f4f4; */
+}
+
+
+/* 预定义样式 常使用的 */
+
+
+/* 清除浮动三件套 */
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+/* 浮动 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.layer {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+/* 常用颜色 */
+
+.c4 {
+    color: #f40;
+}
+
+.c5 {
+    color: #f50;
+}
+
+.c6 {
+    color: #8d7afb;
+}
+
+.c7 {
+    color: #a8c001;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mr7 {
+    margin-right: 7px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
